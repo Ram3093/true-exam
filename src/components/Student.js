@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 class Student extends Component {
     state={
         photos:[]
@@ -12,12 +13,14 @@ class Student extends Component {
          this.setState({
              photos:pics
          })
+       
         // this.state.photos.push('gfadsf')
         // console.log('dfsd')
     }
     render() {
         console.log(this.state.photos)
         const img=localStorage.getItem('img');
+        localStorage.setItem('photos',JSON.stringify(this.state.photos))
         const studentSection=(img)?(          
             <div style={{marginTop:"2rem"}}>
                   <button type='button' className='btn btn-primary' onClick={ this.addImage }>Edit</button>
@@ -27,8 +30,10 @@ class Student extends Component {
             this.state.photos.map(el=>{
                 return(
                     <div key={el.id} style={{ }}>
+                        <Link to={'/student/'+el.id }>
                          <img src={el.img} width='200' height='200' alt='' className='card' style={{ border:"2px solid blue"}}/>
                          <p>{el.id} </p>
+                         </Link>
                     </div>
                 )
             })
