@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/true-exam/static/css/main.92821e80.chunk.css",
+    "main.js": "/true-exam/static/js/main.e86ba934.chunk.js",
+    "main.js.map": "/true-exam/static/js/main.e86ba934.chunk.js.map",
+    "runtime-main.js": "/true-exam/static/js/runtime-main.f916afee.js",
+    "runtime-main.js.map": "/true-exam/static/js/runtime-main.f916afee.js.map",
+    "static/css/2.0939e70c.chunk.css": "/true-exam/static/css/2.0939e70c.chunk.css",
+    "static/js/2.25832f81.chunk.js": "/true-exam/static/js/2.25832f81.chunk.js",
+    "static/js/2.25832f81.chunk.js.map": "/true-exam/static/js/2.25832f81.chunk.js.map",
+    "index.html": "/true-exam/index.html",
+    "precache-manifest.cb4a9c2ecc5e3bcba1df90ffecd11f32.js": "/true-exam/precache-manifest.cb4a9c2ecc5e3bcba1df90ffecd11f32.js",
+    "service-worker.js": "/true-exam/service-worker.js",
+    "static/css/2.0939e70c.chunk.css.map": "/true-exam/static/css/2.0939e70c.chunk.css.map",
+    "static/css/main.92821e80.chunk.css.map": "/true-exam/static/css/main.92821e80.chunk.css.map",
+    "static/js/2.25832f81.chunk.js.LICENSE.txt": "/true-exam/static/js/2.25832f81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f916afee.js",
+    "static/css/2.0939e70c.chunk.css",
+    "static/js/2.25832f81.chunk.js",
+    "static/css/main.92821e80.chunk.css",
+    "static/js/main.e86ba934.chunk.js"
+  ]
+}
